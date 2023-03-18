@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="games.PlusOuMoins.Controller">
+   <children>
+      <ImageView fx:id="currentCard" fitHeight="300.0" fitWidth="100.0" layoutX="100.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="100.0">
+         <image>
+            <Image url="@../../assets/dos.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="guessCard" fitHeight="300.0" fitWidth="100.0" layoutX="300.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="100.0">
+         <image>
+            <Image url="@../../assets/dos.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="158.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plus ou Moins ?" textAlignment="CENTER" wrappingWidth="185.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="158.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utiliser les flèches directionnelles haut &amp; bas" textAlignment="CENTER" wrappingWidth="185.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="100.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score :" wrappingWidth="185.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="scoreText" fill="WHITE" layoutX="178.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" wrappingWidth="42.75804138183594">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="endGameText" fill="WHITE" layoutX="265.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="134.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
