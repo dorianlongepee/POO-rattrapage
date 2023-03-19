@@ -24,4 +24,9 @@ Pour lancer le programme, il faut exécuter la méthode main de la classe GameCo
 games/Memory/controller/GameController.java
 ```
 
+Le jeu en console est en mode "debug" par défaut pour aller plus vite lors des tests. Dans CardClassic[86,8], changer la ligne pour :
+```
+if(this.isVisible()) {
+```
+
 /!\ J'ai travaillé sous IntelliJ, j'ai fait un export pour eclipse mais si vous avez des problèmes pour importer le projet, ça peut être ça.
