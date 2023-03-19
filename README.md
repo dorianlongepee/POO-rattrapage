@@ -1,4 +1,4 @@
-> Code de base fourni par **David Guillin** que je remercie !
+> Code de base fourni par **David Guillin**
 
 Repository dans le but de comparer mes changements par rapport au code de David, et voici un bref résumé de mon travail :
 
